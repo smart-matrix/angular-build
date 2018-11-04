@@ -17,7 +17,7 @@ const concat = require('concat');
     await concat(files, `dist/${project}/${project}.js`);
 
     if (await fs.exists(`./dist/${project}-build/styles.css`))
-        await fs.copyFile(`./dist/${project}-build/styles.css`, `dist/${project}/styles.css`);
+        await fs.copyFile(`./dist/${project}-build/styles.css`, `dist/${project}/${project}.css`);
 
     if (await fs.exists(`./dist/${project}-build/assets/`))
         await fs.copy(`./dist/${project}-build/assets/`, `dist/${project}/assets/` ) ;
