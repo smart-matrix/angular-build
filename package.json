@@ -1,6 +1,6 @@
 {
   "name": "@smart-matrix/angular-build",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "deploy": "npm version patch && npm run deploy:lib",
     "deploy:lib": "npm publish --access public"
