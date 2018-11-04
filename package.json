@@ -1,0 +1,9 @@
+{
+  "name": "@smart-matrix/angular-build",
+  "version": "0.0.0",
+  "scripts": {
+    "deploy": "npm run version && npm run deploy:lib",
+    "deploy:lib": "npm publish --access public"
+  },
+  "private": true
+}
