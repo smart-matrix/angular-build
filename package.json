@@ -5,5 +5,5 @@
     "deploy": "npm version patch && npm run deploy:lib",
     "deploy:lib": "npm publish --access public"
   },
-  "private": true
+  "private": false
 }
